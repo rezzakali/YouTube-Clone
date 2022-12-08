@@ -1,10 +1,11 @@
 import React from 'react';
+import { AppContext } from './context/contextApi';
 
 const App = () => {
   return (
-    <div>
+    <AppContext>
       <h1 className="underline">hello</h1>
-    </div>
+    </AppContext>
   );
 };
 
