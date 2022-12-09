@@ -4,12 +4,12 @@ const SidebarItems = ({ text, icon, action, className }) => {
   return (
     <div
       className={
-        'text-white cursor-pointer flex items-center px-3 rounded-lg  hover:bg-white/[0.15] ' +
+        'text-white text-sm cursor-pointer h-10 flex items-center px-3 mb-[1px] rounded-lg hover:bg-white/[0.15] ' +
         className
       }
       onClick={action}
     >
-      <span className="mr-5 py-2">{icon}</span>
+      <span className="text-xl mr-5">{icon}</span>
       {text}
     </div>
   );

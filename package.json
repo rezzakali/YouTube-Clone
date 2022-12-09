@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
     "axios": "^1.2.1",
+    "js-abbreviation-number": "^1.4.0",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
