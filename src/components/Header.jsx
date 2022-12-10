@@ -45,12 +45,12 @@ const Header = () => {
         )}
         <Link to="/" className="flex h-5 items-center">
           <img
-            src="../src/assets/Youtube_logo.png"
+            src="https://res.cloudinary.com/dlemgxfxt/image/upload/v1670660187/samples/youtube/Youtube_logo_g6xlaa.png"
             alt="youtube"
             className="h-full hidden dark:md:block"
           />
           <img
-            src="../src/assets/Youtube_logo_mobile.png"
+            src="https://res.cloudinary.com/dlemgxfxt/image/upload/v1670660188/samples/youtube/Youtube_logo_mobile_fk0ccu.png"
             alt="youtube"
             className="h-full md:hidden"
           />
