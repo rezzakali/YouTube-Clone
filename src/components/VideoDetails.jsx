@@ -22,7 +22,6 @@ const VideoDetails = () => {
     fetchDataFromApi(`video/details/?id=${id}`).then((res) => {
       setLoading(false);
       setVideo(res);
-      console.log(res);
     });
   };
 

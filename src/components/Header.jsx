@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
 import { AiOutlineBell } from 'react-icons/ai';
-import { CgClose } from 'react-icons/cg';
 import { HiMicrophone } from 'react-icons/hi';
 import { IoIosSearch } from 'react-icons/io';
 import { RiVideoAddLine } from 'react-icons/ri';
@@ -38,7 +37,7 @@ const Header = () => {
             onClick={mobileMenuToggler}
           >
             {mobile ? (
-              <CgClose className="text-white" />
+              <SlMenu className="text-white" />
             ) : (
               <SlMenu className="text-white" />
             )}
@@ -92,7 +91,7 @@ const Header = () => {
             3
           </h1>
         </div>
-        <div className="hidden md:flex">
+        <div className=" md:flex">
           <div className="flex items-center justify-center h-10 w-10 rounded-full p-2 cursor-pointer overflow-hidden">
             <img
               src="https://xsgames.co/randomusers/assets/avatars/male/10.jpg"
