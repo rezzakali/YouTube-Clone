@@ -64,7 +64,7 @@ const Header = () => {
           </div>
           <input
             type="text"
-            className="bg-transparent outline-none text-white pr-5 pl-5 md:pl-0 w-64 md:group-focus-within:pl-0 md:w-64 lg:w-[500px]"
+            className="bg-transparent outline-none text-white pr-5 pl-5 md:pl-0 w-1/2 md:group-focus-within:pl-0 md:w-64 lg:w-[500px]"
             onChange={(e) => setSearchQuery(e.target.value)}
             value={searchQuery}
             onKeyUp={searchQueryHandler}
